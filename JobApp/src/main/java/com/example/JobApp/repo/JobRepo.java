@@ -9,7 +9,7 @@ import java.util.List;
 
 @Repository
 public class JobRepo {
-    List<JobPost> jobs;
+    List<JobPost> jobs = new ArrayList<>();;
     public JobRepo() {
 
         // Java Developer Job Post
@@ -112,5 +112,6 @@ public class JobRepo {
 
     public void addJobs(JobPost job){
         jobs.add(job);
+        System.out.println(jobs);
     }
 }
