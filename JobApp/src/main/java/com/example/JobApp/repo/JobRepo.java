@@ -112,6 +112,5 @@ public class JobRepo {
 
     public void addJobs(JobPost job){
         jobs.add(job);
-        System.out.println(jobs);
     }
 }
