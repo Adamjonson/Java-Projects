@@ -18,13 +18,13 @@ public class SpringDataJpaExApplication {
 		s1.setName("Mario");
 		s1.setMarks(75);
 
-		s1.setRollNo(101);
-		s1.setName("Mario");
-		s1.setMarks(75);
+		s2.setRollNo(102);
+		s2.setName("Alex");
+		s2.setMarks(75);
 
-		s1.setRollNo(101);
-		s1.setName("Mario");
-		s1.setMarks(75);
+		s3.setRollNo(103);
+		s3.setName("Luigi");
+		s3.setMarks(75);
 
 	}
 
