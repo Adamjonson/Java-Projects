@@ -10,6 +10,9 @@ public class SpringDataJpaExApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(SpringDataJpaExApplication.class, args);
+
+		StudentRepo repo = context.getBean(StudentRepo.class);
+
 		Student s1 = context.getBean(Student.class);
 		Student s2 = context.getBean(Student.class);
 		Student s3 = context.getBean(Student.class);
@@ -26,6 +29,7 @@ public class SpringDataJpaExApplication {
 		s3.setName("Luigi");
 		s3.setMarks(75);
 
+	    repo.save(s1);
 	}
 
 }
