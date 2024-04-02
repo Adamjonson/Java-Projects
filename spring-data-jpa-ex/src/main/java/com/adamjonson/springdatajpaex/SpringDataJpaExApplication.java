@@ -13,7 +13,7 @@ public class SpringDataJpaExApplication {
 
 		StudentRepo repo = context.getBean(StudentRepo.class);
 
-/*		Student s1 = context.getBean(Student.class);
+/*=		Student s1 = context.getBean(Student.class);
 		Student s2 = context.getBean(Student.class);
 		Student s3 = context.getBean(Student.class);
 
