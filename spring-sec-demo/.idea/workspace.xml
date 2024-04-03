@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f4eb703-b984-42ab-921b-2a2ad1d0da63" name="Changes" comment="" />
+    <list default="true" id="2f4eb703-b984-42ab-921b-2a2ad1d0da63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admjonson/springsecdemo/dao/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admjonson/springsecdemo/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admjonson/springsecdemo/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admjonson/springsecdemo/service/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admjonson/springsecdemo/dao/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,16 +47,25 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_directory_selection": "C:/Users/Hp/Desktop/java-projects/spring-sec-demo/src/main/java/com/admjonson/springsecdemo"
+    "last_directory_selection": "C:/Users/Hp/Desktop/java-projects/spring-sec-demo/src/main/java/com/admjonson/springsecdemo",
+    "last_opened_file_path": "C:/Users/Hp/Desktop/java-projects/spring-sec-demo/src/main/java/com/admjonson/springsecdemo/controller"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.admjonson.springsecdemo.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\java-projects\spring-sec-demo\src\main\java\com\admjonson\springsecdemo\controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringSecDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.admjonson.springsecdemo.SpringSecDemoApplication" />
       <module name="spring-sec-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.admjonson.springsecdemo.*" />
+          <option name="PATTERN" value="com.admjonson.springsecdemo.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
