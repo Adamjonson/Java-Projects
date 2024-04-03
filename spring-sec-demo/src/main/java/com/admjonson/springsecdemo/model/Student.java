@@ -1,4 +1,4 @@
-package com.admjonson.springsecdemo;
+package com.admjonson.springsecdemo.model;
 
 import jdk.jfr.DataAmount;
 import lombok.AllArgsConstructor;
