@@ -1,1 +1,1 @@
-A simple java servlet
+Java projects
